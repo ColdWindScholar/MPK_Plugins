@@ -1,0 +1,475 @@
+[
+    {
+        "name": "Apktool",
+        "desc": "它是用于逆向工程第三方，封闭，二进制Android应用程序的工具。它可以将资源解码为几乎原始的形式，并在进行一些修改后重建它们;它可以逐步调试 Smali 代码。此外，由于类似项目的文件结构和一些重复性任务（如构建 apk 等）的自动化，它使使用应用程序更容易。它不用于盗版和其他非合法用途。它可用于本地化，添加一些功能或支持自定义平台和其他良好目的。只要尽量公平对待您使用并可能喜欢的应用程序的作者。",
+        "author": "Connor Tumbleson",
+        "version": "2.7.0",
+        "size": 22909212,
+        "id": "apktool",
+        "files": [
+            "Apktool.mpk"
+        ]
+    },
+    {
+        "name": "boot宽容",
+        "desc": "boot宽容",
+        "author": "tao1996",
+        "version": "1.0",
+        "size": 741,
+        "id": "preboot",
+        "files": [
+            "boot宽容.mpk"
+        ]
+    },
+    {
+        "name": "en_super分段合并",
+        "desc": "en_super分段合并",
+        "author": "D.X.Y_i",
+        "version": "1.0",
+        "size": 49974,
+        "id": "DXY_MEU",
+        "files": [
+            "en_super分段合并.mpk"
+        ]
+    },
+    {
+        "name": "EXT3解包",
+        "desc": "EXT3解包 修复MKC的功能缺陷",
+        "author": "寒风居士",
+        "version": "1.0",
+        "size": 1165768,
+        "id": "8iMR7J",
+        "files": [
+            "EXT3解包.mpk"
+        ]
+    },
+    {
+        "name": "Java环境",
+        "desc": "一个Java运行环境，部分插件依赖此环境。Oracle Java 是广受欢迎的编程语言和开发平台。它有助于企业降低成本、缩短开发周期、推动创新以及改善应用服务。如今，Java 仍是企业和开发人员的首选开发平台，全球有数百万开发人员运行超过 60 亿台 Java 虚拟机。",
+        "author": "Oracle-甲骨文",
+        "version": "18.0.2.1",
+        "size": 27667201,
+        "id": "java",
+        "files": [
+            "Java环境.mpk"
+        ]
+    },
+    {
+        "name": "Java环境-旧版",
+        "desc": "一个Java运行环境，部分插件依赖此环境。Oracle Java 是广受欢迎的编程语言和开发平台。它有助于企业降低成本、缩短开发周期、推动创新以及改善应用服务。如今，Java 仍是企业和开发人员的首选开发平台，全球有数百万开发人员运行超过 60 亿台 Java 虚拟机。",
+        "author": "Oracle-甲骨文",
+        "version": "1.8",
+        "size": 36699161,
+        "id": "java_old",
+        "files": [
+            "java环境_旧.mpk"
+        ]
+    },
+    {
+        "name": "LZ4解包",
+        "desc": "lz4解包",
+        "author": "M.K.C",
+        "version": "1.0",
+        "size": 654,
+        "id": "lz4mm",
+        "files": [
+            "lz4解包.mpk"
+        ]
+    },
+    {
+        "name": "MIUI14安卓13官改一般处理[1.1]",
+        "desc": "去除avb，vbmeta，mi_ext，data加密，AnalyticsCore，系统层未签名安装限制以及精简",
+        "author": "Kpfc白中白",
+        "version": "1.0",
+        "size": 43575,
+        "id": "miui14gg",
+        "files": [
+            "MIUI14安卓13官改一般处理[1.1].mpk"
+        ]
+    },
+    {
+        "name": "MIUI14官改NFC修复",
+        "desc": "MIUI14官改NFC修复",
+        "author": "Puresky",
+        "version": "1.0",
+        "size": 763,
+        "id": "5lsd7a",
+        "files": [
+            "MIUI14官改NFC修复.mpk"
+        ]
+    },
+    {
+        "name": "MIUI14账号修复",
+        "desc": "MIUI14账号修复",
+        "author": "tao1996",
+        "version": "1.0",
+        "size": 3695049,
+        "id": "miui14zh",
+        "files": [
+            "MIUI14账号修复.mpk"
+        ]
+    },
+    {
+        "name": "MIUI主题防恢复",
+        "desc": "MIUI主题防恢复",
+        "author": "DXY",
+        "version": "1.0",
+        "size": 680,
+        "id": "dxy_miuitheme",
+        "files": [
+            "MIUI主题防恢复.mpk"
+        ]
+    },
+    {
+        "name": "MIUI温控加解密",
+        "desc": "支持修改MIU温控文件，但修改后必须加密",
+        "author": "米欧科技",
+        "version": "1.0",
+        "size": 1342732,
+        "id": "miui-thermal",
+        "files": [
+            "MIUI温控加解密.mpk"
+        ]
+    },
+    {
+        "name": "MTK-BPF修补",
+        "desc": "MTK-BPF修补",
+        "author": "M.K.C",
+        "version": "1.0",
+        "size": 86465,
+        "id": "prbpfboot",
+        "files": [
+            "MTK-BPF修补.mpk"
+        ]
+    },
+    {
+        "name": "ROM签名工具",
+        "desc": "使用测试密钥（2014）签名ROM",
+        "author": "米欧科技",
+        "version": "1.0",
+        "size": 3748970,
+        "id": "signapk",
+        "files": [
+            "ROM签名工具.mpk"
+        ]
+    },
+    {
+        "name": "T3L_TS6_TS7一键root",
+        "desc": "",
+        "author": "落红无情",
+        "version": "1.1",
+        "size": 3163627,
+        "id": "Ts367root",
+        "files": [
+            "T3L_TS6_TS7一键root.mpk"
+        ]
+    },
+    {
+        "name": "TS10一键root",
+        "desc": "TS10一键root",
+        "author": "米欧科技",
+        "version": "1.0",
+        "size": 807861,
+        "id": "TS10ROOT",
+        "files": [
+            "TS10一键root.mpk"
+        ]
+    },
+    {
+        "name": "ts10一键蝰蛇杜比",
+        "desc": "",
+        "author": "落花无情",
+        "version": "1.0",
+        "size": 7329189,
+        "id": "ViPER4+Dsplus",
+        "files": [
+            "ts10一键蝰蛇杜比.mpk"
+        ]
+    },
+    {
+        "name": "TS6一键root",
+        "desc": "",
+        "author": "米欧科技",
+        "version": "1.0",
+        "size": 3164287,
+        "id": "TS6ROOT",
+        "files": [
+            "TS6一键root.mpk"
+        ]
+    },
+    {
+        "name": "ts7一键root",
+        "desc": "",
+        "author": "落红无情",
+        "version": "1.0",
+        "size": 3163610,
+        "id": "ts7root",
+        "files": [
+            "ts7一键root.mpk"
+        ]
+    },
+    {
+        "name": "ZSTD解打",
+        "desc": "解压打包ZSTD",
+        "author": "米欧科技",
+        "version": "1.0",
+        "size": 657357,
+        "id": "zstd",
+        "files": [
+            "zstd解打.mpk"
+        ]
+    },
+    {
+        "name": "MOOS",
+        "desc": "{基于[基于HyperOS深度优化的PureSky]}对分区odm、product、system、system_ext、vendor处理",
+        "author": "[欣恋]Seylia",
+        "version": "1.5",
+        "size": 2517167,
+        "id": "MOOS",
+        "files": [
+            "[P1.5]MOOS_3.mpk"
+        ]
+    },
+    {
+        "name": "一键处理橘子2.0原包",
+        "desc": "一键处理橘子2.0原包",
+        "author": "tao1996",
+        "version": "1.0",
+        "size": 5886539,
+        "id": "preocean",
+        "files": [
+            "一键处理橘子2.0原包.mpk"
+        ]
+    },
+    {
+        "name": "一键面具新版狐狸",
+        "desc": "一键面具新版狐狸",
+        "author": "群号：675773466",
+        "version": "1.1",
+        "size": 12207827,
+        "id": "一键面具新版狐狸",
+        "files": [
+            "一键面具.mpk"
+        ]
+    },
+    {
+        "name": "去除分区锁和Data加密",
+        "desc": "去除分区锁和Data加密",
+        "author": "米欧科技",
+        "version": "1.0",
+        "size": 1727,
+        "id": "delavbd",
+        "files": [
+            "去除AVB和DATA加密.mpk"
+        ]
+    },
+    {
+        "name": "去除vbmeta验证",
+        "desc": "去除vbmeta验证",
+        "author": "寒风居士",
+        "version": "1",
+        "size": 1199,
+        "id": "qcvbmetayanzheng",
+        "files": [
+            "去除vbmeta验证.mpk"
+        ]
+    },
+    {
+        "name": "去除安卓13系统对未签名应用的验证",
+        "desc": "去除安卓13系统对未签名应用的验证",
+        "author": "tao1996",
+        "version": "1.0",
+        "size": 1453,
+        "id": "harka13",
+        "files": [
+            "去除安卓13系统对未签名应用的验证.mpk"
+        ]
+    },
+    {
+        "name": "移除安卓13签名",
+        "desc": "去除安卓13系统对未签名应用的验证",
+        "author": "米欧",
+        "version": "1.0",
+        "size": 1103,
+        "id": "az13pj",
+        "files": [
+            "去除安卓13系统签名.mpk"
+        ]
+    },
+    {
+        "name": "合并moto分段",
+        "desc": "合并moto分段super模块",
+        "author": "tao1996",
+        "version": "1.0",
+        "size": 826,
+        "id": "memoto",
+        "files": [
+            "合并moto分段super模块.mpk"
+        ]
+    },
+    {
+        "name": "合并my分区到system",
+        "desc": "合并my分区到system",
+        "author": "tao1996",
+        "version": "1.0",
+        "size": 1169,
+        "id": "hbmy",
+        "files": [
+            "合并my分区到system.mpk"
+        ]
+    },
+    {
+        "name": "合并REC到BOOT",
+        "desc": "合并REC到BOOT",
+        "author": "M.K.C",
+        "version": "1.0",
+        "size": 1052,
+        "id": "hbrec",
+        "files": [
+            "合并REC到BOOT.mpk"
+        ]
+    },
+    {
+        "name": "合并分区到system外层",
+        "desc": "合并其他分区到system外层",
+        "author": "tao1996",
+        "version": "1.0",
+        "size": 1708,
+        "id": "mer_parts",
+        "files": [
+            "合并分区到system外层.mpk"
+        ]
+    },
+    {
+        "name": "合并分区到system内层",
+        "desc": "合并其他分区到system内层",
+        "author": "M.K.C",
+        "version": "1.0",
+        "size": 7482,
+        "id": "mer_parts_nei",
+        "files": [
+            "合并分区进system(内层).mpk"
+        ]
+    },
+    {
+        "name": "极限精简谨慎测试",
+        "desc": "极限精简谨慎测试",
+        "author": "",
+        "version": "1.0",
+        "size": 3417,
+        "id": "ddgfjfg",
+        "files": [
+            "极限精简谨慎测试.mpk"
+        ]
+    },
+    {
+        "name": "查找依赖",
+        "desc": "查找依赖",
+        "author": "tao1996&&MIO",
+        "version": "1.0",
+        "size": 2192620,
+        "id": "finddep",
+        "files": [
+            "查找依赖.mpk"
+        ]
+    },
+    {
+        "name": "破解MIUI卡米_MSH",
+        "desc": "破解MIUI卡米",
+        "author": "米欧科技",
+        "version": "1.0",
+        "size": 1258,
+        "id": "pjkm_msh",
+        "files": [
+            "破解MIUI卡米_MSH.mpk"
+        ]
+    },
+    {
+        "name": "破解MIUI卡米",
+        "desc": "破解MIUI卡米",
+        "author": "米欧科技",
+        "version": "1.0",
+        "size": 1953,
+        "id": "pjkm",
+        "files": [
+            "破解卡米.mpk"
+        ]
+    },
+    {
+        "name": "精简miui",
+        "desc": "精简miui",
+        "author": "tao1996",
+        "version": "1.0",
+        "size": 758,
+        "id": "jjmiui",
+        "files": [
+            "精简miui.mpk"
+        ]
+    },
+    {
+        "name": "解包ops",
+        "desc": "解包ops",
+        "author": "M.K.C",
+        "version": "1.0",
+        "size": 5538557,
+        "id": "unpackops",
+        "files": [
+            "解包ops.mpk"
+        ]
+    },
+    {
+        "name": "镜像大小调整",
+        "desc": "调整镜像大小，支持EXT4，RAW",
+        "author": "米欧科技",
+        "version": "1.0",
+        "size": 2073884,
+        "id": "resizeimg",
+        "files": [
+            "镜像大小调整.mpk"
+        ]
+    },
+    {
+        "name": "Magisk_Patch",
+        "desc": "修补Boot，ROOT设备",
+        "author": "寒风居士",
+        "version": "26.1",
+        "size": 8799637,
+        "id": "magisk_patch",
+        "files": [
+            "面具修补.mpk"
+        ]
+    },
+    {
+        "name": "鼎微TS0-TS8改包工具",
+        "desc": "首个对车机支持的插件",
+        "author": "静心听雨&米欧科技",
+        "version": "1.0",
+        "size": 4315872,
+        "id": "TS0-TS8",
+        "files": [
+            "鼎微TS0-TS8改包工具.mpk"
+        ]
+    },
+    {
+        "name": "鼎微TS10改包工具",
+        "desc": "鼎微TS10改包工具",
+        "author": "米欧科技",
+        "version": "1.0",
+        "size": 4315686,
+        "id": "TS10",
+        "files": [
+            "鼎微TS10改包工具.mpk"
+        ]
+    },
+    {
+        "name": "鼎微系列万能改包工具",
+        "desc": "鼎微系列万能改包工具",
+        "author": "米欧科技",
+        "version": "1.0",
+        "size": 4315921,
+        "id": "TSwn",
+        "files": [
+            "鼎微系列万能改包工具.mpk"
+        ]
+    }
+]

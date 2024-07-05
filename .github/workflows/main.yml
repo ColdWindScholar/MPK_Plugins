@@ -1,0 +1,29 @@
+name: "Build DataBase"
+permissions:
+  contents: write
+  discussions: write
+on:
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python 3.8.10
+        uses: actions/setup-python@v4
+        with:
+            # Semantic version range syntax or exact version of a Python version
+            python-version: '3.8.10'
+            # Optional - x64 or x86 architecture, defaults to x64
+            architecture: 'x86'
+      - name: Update
+        run: |
+          python3 update.py
+          git config --local user.email "3590361911@qq.com"
+          git config --local user.name "ColdWindScholar"
+          git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git pull --rebase
+          git add plugin.json
+          git add version.txt
+          git commit --allow-empty -m "Update"
+          git push
