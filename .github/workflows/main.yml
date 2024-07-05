@@ -3,6 +3,8 @@ permissions:
   contents: write
   discussions: write
 on:
+  schedule:
+    -cron: '0 21 * * *'
   workflow_dispatch:
 jobs:
   build:
