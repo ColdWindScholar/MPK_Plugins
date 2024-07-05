@@ -6,7 +6,6 @@ import zipfile
 from config_parser import ConfigParser
 
 
-# {"name": "app1", "version": "1.0", "size": 102400, "desc": "app1", "id": "", "merge": "y", "files": ['f1.mpk.1', 'f1.mpk.2']}{"name": "app1", "version": "1.0", "size": 102400, "desc": "app1", "id": "", "merge": "y", "files": ['f1.mpk.1', 'f1.mpk.2']}
 def main(output_json, version):
     build_time = int(time.time())
     plugin_list = []
