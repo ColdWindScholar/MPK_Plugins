@@ -33,6 +33,5 @@ def main(output_json, version):
         f.write(str(build_time))
 
 
-
 if __name__ == '__main__':
     main('plugin.json', 'version.txt')
