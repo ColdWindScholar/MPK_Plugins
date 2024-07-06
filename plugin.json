@@ -6,7 +6,9 @@
         "version": "2.7.0",
         "size": 22909212,
         "id": "apktool",
-        "depend": [],
+        "depend": [
+            "java"
+        ],
         "files": [
             "Apktool.mpk"
         ]
@@ -90,7 +92,10 @@
         "version": "1.0",
         "size": 43575,
         "id": "miui14gg",
-        "depend": [],
+        "depend": [
+            "java",
+            "apktool"
+        ],
         "files": [
             "MIUI14安卓13官改一般处理[1.1].mpk"
         ]
@@ -162,7 +167,9 @@
         "version": "1.0",
         "size": 3748970,
         "id": "signapk",
-        "depend": [],
+        "depend": [
+            "java_old"
+        ],
         "files": [
             "ROM签名工具.mpk"
         ]
@@ -306,7 +313,10 @@
         "version": "1.0",
         "size": 1453,
         "id": "harka13",
-        "depend": [],
+        "depend": [
+            "apktool",
+            "java"
+        ],
         "files": [
             "去除安卓13系统对未签名应用的验证.mpk"
         ]
@@ -318,7 +328,10 @@
         "version": "1.0",
         "size": 1103,
         "id": "az13pj",
-        "depend": [],
+        "depend": [
+            "java",
+            "apktool"
+        ],
         "files": [
             "去除安卓13系统签名.mpk"
         ]
@@ -414,7 +427,10 @@
         "version": "1.0",
         "size": 1258,
         "id": "pjkm_msh",
-        "depend": [],
+        "depend": [
+            "apktool",
+            "java"
+        ],
         "files": [
             "破解MIUI卡米_MSH.mpk"
         ]
@@ -426,7 +442,10 @@
         "version": "1.0",
         "size": 1953,
         "id": "pjkm",
-        "depend": [],
+        "depend": [
+            "java",
+            "apktool"
+        ],
         "files": [
             "破解卡米.mpk"
         ]
