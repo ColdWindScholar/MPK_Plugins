@@ -8,12 +8,7 @@ from config_parser import ConfigParser
 
 def main(output_json, version, service_info=None):
     build_time = int(time.time())
-    if service_info:
-        with open(service_info, 'r') as f:
-            service_info = json.load(f)
-        plugin_list = [service_info]
-    else:
-        plugin_list = [{'provide': "ColdWindScholar", "manufacturer": "Github", "desc": "Free Plugin Repo"}]
+    plugin_list = []
     for i in os.listdir(os.getcwd()):
         if i.endswith('.mpk') and zipfile.is_zipfile(i):
             config = ConfigParser()
