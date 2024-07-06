@@ -1,248 +1,295 @@
 [
     {
-        "name": "Apktool",
-        "desc": "ËüÊÇÓÃÓÚÄæÏò¹¤³ÌµÚÈı·½£¬·â±Õ£¬¶ş½øÖÆAndroidÓ¦ÓÃ³ÌĞòµÄ¹¤¾ß¡£Ëü¿ÉÒÔ½«×ÊÔ´½âÂëÎª¼¸ºõÔ­Ê¼µÄĞÎÊ½£¬²¢ÔÚ½øĞĞÒ»Ğ©ĞŞ¸ÄºóÖØ½¨ËüÃÇ;Ëü¿ÉÒÔÖğ²½µ÷ÊÔ Smali ´úÂë¡£´ËÍâ£¬ÓÉÓÚÀàËÆÏîÄ¿µÄÎÄ¼ş½á¹¹ºÍÒ»Ğ©ÖØ¸´ĞÔÈÎÎñ£¨Èç¹¹½¨ apk µÈ£©µÄ×Ô¶¯»¯£¬ËüÊ¹Ê¹ÓÃÓ¦ÓÃ³ÌĞò¸üÈİÒ×¡£Ëü²»ÓÃÓÚµÁ°æºÍÆäËû·ÇºÏ·¨ÓÃÍ¾¡£Ëü¿ÉÓÃÓÚ±¾µØ»¯£¬Ìí¼ÓÒ»Ğ©¹¦ÄÜ»òÖ§³Ö×Ô¶¨ÒåÆ½Ì¨ºÍÆäËûÁ¼ºÃÄ¿µÄ¡£Ö»Òª¾¡Á¿¹«Æ½¶Ô´ıÄúÊ¹ÓÃ²¢¿ÉÄÜÏ²»¶µÄÓ¦ÓÃ³ÌĞòµÄ×÷Õß¡£",
-        "author": "Connor Tumbleson",
-        "version": "2.7.0",
-        "size": 22909212,
-        "id": "apktool",
-        "depend": [],
-        "files": [
-            "Apktool.mpk"
-        ]
-    },
-    {
-        "name": "boot¿íÈİ",
-        "desc": "boot¿íÈİ",
-        "author": "tao1996",
+        "name": "ts7ä¸€é”®root",
+        "desc": "",
+        "author": "è½çº¢æ— æƒ…",
         "version": "1.0",
-        "size": 741,
-        "id": "preboot",
+        "size": 3163610,
+        "id": "ts7root",
         "depend": [],
         "files": [
-            "boot¿íÈİ.mpk"
+            "ts7ä¸€é”®root.mpk"
         ]
     },
     {
-        "name": "en_super·Ö¶ÎºÏ²¢",
-        "desc": "en_super·Ö¶ÎºÏ²¢",
-        "author": "D.X.Y_i",
+        "name": "Xiaomi_HyperOS_Phone",
+        "desc": "Xiaomi_HyperOS_Phone ç²¾ç®€æ’ä»¶",
+        "author": "YvanW",
+        "version": "2.1",
+        "size": 3155,
+        "id": "7h0sis",
+        "depend": [],
+        "files": [
+            "Xiaomi_HyperOS_Phone.mpk"
+        ]
+    },
+    {
+        "name": "é¼å¾®ç³»åˆ—ä¸‡èƒ½æ”¹åŒ…å·¥å…·_linux",
+        "desc": "é¼å¾®ç³»åˆ—ä¸‡èƒ½æ”¹åŒ…å·¥å…·_linux",
+        "author": "ç±³æ¬§ç§‘æŠ€",
         "version": "1.0",
-        "size": 49974,
-        "id": "DXY_MEU",
+        "size": 343435,
+        "id": "TSwn_ilnux",
         "depend": [],
         "files": [
-            "en_super·Ö¶ÎºÏ²¢.mpk"
+            "é¼å¾®ç³»åˆ—ä¸‡èƒ½æ”¹åŒ…å·¥å…·_linux.mpk"
         ]
     },
     {
-        "name": "EXT3½â°ü",
-        "desc": "EXT3½â°ü ĞŞ¸´MKCµÄ¹¦ÄÜÈ±Ïİ",
-        "author": "º®·ç¾ÓÊ¿",
-        "version": "1.0",
-        "size": 1165768,
-        "id": "8iMR7J",
-        "depend": [],
-        "files": [
-            "EXT3½â°ü.mpk"
-        ]
-    },
-    {
-        "name": "Java»·¾³",
-        "desc": "Ò»¸öJavaÔËĞĞ»·¾³£¬²¿·Ö²å¼şÒÀÀµ´Ë»·¾³¡£Oracle Java ÊÇ¹ãÊÜ»¶Ó­µÄ±à³ÌÓïÑÔºÍ¿ª·¢Æ½Ì¨¡£ËüÓĞÖúÓÚÆóÒµ½µµÍ³É±¾¡¢Ëõ¶Ì¿ª·¢ÖÜÆÚ¡¢ÍÆ¶¯´´ĞÂÒÔ¼°¸ÄÉÆÓ¦ÓÃ·şÎñ¡£Èç½ñ£¬Java ÈÔÊÇÆóÒµºÍ¿ª·¢ÈËÔ±µÄÊ×Ñ¡¿ª·¢Æ½Ì¨£¬È«ÇòÓĞÊı°ÙÍò¿ª·¢ÈËÔ±ÔËĞĞ³¬¹ı 60 ÒÚÌ¨ Java ĞéÄâ»ú¡£",
-        "author": "Oracle-¼×¹ÇÎÄ",
-        "version": "18.0.2.1",
-        "size": 27667201,
-        "id": "java",
-        "depend": [],
-        "files": [
-            "Java»·¾³.mpk"
-        ]
-    },
-    {
-        "name": "Java»·¾³-¾É°æ",
-        "desc": "Ò»¸öJavaÔËĞĞ»·¾³£¬²¿·Ö²å¼şÒÀÀµ´Ë»·¾³¡£Oracle Java ÊÇ¹ãÊÜ»¶Ó­µÄ±à³ÌÓïÑÔºÍ¿ª·¢Æ½Ì¨¡£ËüÓĞÖúÓÚÆóÒµ½µµÍ³É±¾¡¢Ëõ¶Ì¿ª·¢ÖÜÆÚ¡¢ÍÆ¶¯´´ĞÂÒÔ¼°¸ÄÉÆÓ¦ÓÃ·şÎñ¡£Èç½ñ£¬Java ÈÔÊÇÆóÒµºÍ¿ª·¢ÈËÔ±µÄÊ×Ñ¡¿ª·¢Æ½Ì¨£¬È«ÇòÓĞÊı°ÙÍò¿ª·¢ÈËÔ±ÔËĞĞ³¬¹ı 60 ÒÚÌ¨ Java ĞéÄâ»ú¡£",
-        "author": "Oracle-¼×¹ÇÎÄ",
-        "version": "1.8",
-        "size": 36699161,
-        "id": "java_old",
-        "depend": [],
-        "files": [
-            "java»·¾³_¾É.mpk"
-        ]
-    },
-    {
-        "name": "LZ4½â°ü",
-        "desc": "lz4½â°ü",
-        "author": "M.K.C",
-        "version": "1.0",
-        "size": 654,
-        "id": "lz4mm",
-        "depend": [],
-        "files": [
-            "lz4½â°ü.mpk"
-        ]
-    },
-    {
-        "name": "MIUI14°²×¿13¹Ù¸ÄÒ»°ã´¦Àí[1.1]",
-        "desc": "È¥³ıavb£¬vbmeta£¬mi_ext£¬data¼ÓÃÜ£¬AnalyticsCore£¬ÏµÍ³²ãÎ´Ç©Ãû°²×°ÏŞÖÆÒÔ¼°¾«¼ò",
-        "author": "Kpfc°×ÖĞ°×",
-        "version": "1.0",
-        "size": 43575,
-        "id": "miui14gg",
-        "depend": [],
-        "files": [
-            "MIUI14°²×¿13¹Ù¸ÄÒ»°ã´¦Àí[1.1].mpk"
-        ]
-    },
-    {
-        "name": "MIUI14¹Ù¸ÄNFCĞŞ¸´",
-        "desc": "MIUI14¹Ù¸ÄNFCĞŞ¸´",
-        "author": "Puresky",
-        "version": "1.0",
-        "size": 763,
-        "id": "5lsd7a",
-        "depend": [],
-        "files": [
-            "MIUI14¹Ù¸ÄNFCĞŞ¸´.mpk"
-        ]
-    },
-    {
-        "name": "MIUI14ÕËºÅĞŞ¸´",
-        "desc": "MIUI14ÕËºÅĞŞ¸´",
+        "name": "MIUI14è´¦å·ä¿®å¤",
+        "desc": "MIUI14è´¦å·ä¿®å¤",
         "author": "tao1996",
         "version": "1.0",
         "size": 3695049,
         "id": "miui14zh",
         "depend": [],
         "files": [
-            "MIUI14ÕËºÅĞŞ¸´.mpk"
+            "MIUI14è´¦å·ä¿®å¤.mpk"
         ]
     },
     {
-        "name": "MIUIÖ÷Ìâ·À»Ö¸´",
-        "desc": "MIUIÖ÷Ìâ·À»Ö¸´",
-        "author": "DXY",
+        "name": "ts10ä¸€é”®è°è›‡æœæ¯”",
+        "desc": "",
+        "author": "è½èŠ±æ— æƒ…",
         "version": "1.0",
-        "size": 680,
-        "id": "dxy_miuitheme",
+        "size": 7329189,
+        "id": "ViPER4+Dsplus",
         "depend": [],
         "files": [
-            "MIUIÖ÷Ìâ·À»Ö¸´.mpk"
+            "ts10ä¸€é”®è°è›‡æœæ¯”.mpk"
         ]
     },
     {
-        "name": "MIUIÎÂ¿Ø¼Ó½âÃÜ",
-        "desc": "Ö§³ÖĞŞ¸ÄMIUÎÂ¿ØÎÄ¼ş£¬µ«ĞŞ¸Äºó±ØĞë¼ÓÃÜ",
-        "author": "Ã×Å·¿Æ¼¼",
+        "name": "åˆå¹¶åˆ†åŒºåˆ°systemå†…å±‚",
+        "desc": "åˆå¹¶å…¶ä»–åˆ†åŒºåˆ°systemå†…å±‚",
+        "author": "M.K.C",
+        "version": "1.0",
+        "size": 7482,
+        "id": "mer_parts_nei",
+        "depend": [],
+        "files": [
+            "åˆå¹¶åˆ†åŒºè¿›system(å†…å±‚).mpk"
+        ]
+    },
+    {
+        "name": "æé™ç²¾ç®€è°¨æ…æµ‹è¯•",
+        "desc": "æé™ç²¾ç®€è°¨æ…æµ‹è¯•",
+        "author": "",
+        "version": "1.0",
+        "size": 3417,
+        "id": "ddgfjfg",
+        "depend": [],
+        "files": [
+            "æé™ç²¾ç®€è°¨æ…æµ‹è¯•.mpk"
+        ]
+    },
+    {
+        "name": "ä¸€é”®å¤„ç†æ©˜å­2.0åŸåŒ…",
+        "desc": "ä¸€é”®å¤„ç†æ©˜å­2.0åŸåŒ…",
+        "author": "tao1996",
+        "version": "1.0",
+        "size": 5886539,
+        "id": "preocean",
+        "depend": [],
+        "files": [
+            "ä¸€é”®å¤„ç†æ©˜å­2.0åŸåŒ….mpk"
+        ]
+    },
+    {
+        "name": "é¼å¾®TS0-TS8æ”¹åŒ…å·¥å…·",
+        "desc": "é¦–ä¸ªå¯¹è½¦æœºæ”¯æŒçš„æ’ä»¶",
+        "author": "é™å¿ƒå¬é›¨&ç±³æ¬§ç§‘æŠ€",
+        "version": "1.0",
+        "size": 4315872,
+        "id": "TS0-TS8",
+        "depend": [],
+        "files": [
+            "é¼å¾®TS0-TS8æ”¹åŒ…å·¥å…·.mpk"
+        ]
+    },
+    {
+        "name": "Xiaomi_HyperOS_Pad",
+        "desc": "Xiaomi_HyperOS_Pad ç²¾ç®€æ’ä»¶",
+        "author": "YvanW",
+        "version": "2.0",
+        "size": 2874,
+        "id": "7AOXHb",
+        "depend": [],
+        "files": [
+            "Xiaomi_HyperOS_Pad.mpk"
+        ]
+    },
+    {
+        "name": "build.propä¼˜åŒ–",
+        "desc": "æ·»åŠ build.propä¼˜åŒ–ä»£ç ",
+        "author": "åˆ˜å…ˆç”Ÿ",
+        "version": "1",
+        "size": 1815,
+        "id": "3iDfnh",
+        "depend": [],
+        "files": [
+            "build.propä¼˜åŒ–.mpk"
+        ]
+    },
+    {
+        "name": "ZSTDè§£æ‰“",
+        "desc": "è§£å‹æ‰“åŒ…ZSTD",
+        "author": "ç±³æ¬§ç§‘æŠ€",
+        "version": "1.0",
+        "size": 657357,
+        "id": "zstd",
+        "depend": [],
+        "files": [
+            "zstdè§£æ‰“.mpk"
+        ]
+    },
+    {
+        "name": "ç ´è§£MIUIå¡ç±³",
+        "desc": "ç ´è§£MIUIå¡ç±³",
+        "author": "ç±³æ¬§ç§‘æŠ€",
+        "version": "1.0",
+        "size": 1953,
+        "id": "pjkm",
+        "depend": [
+            "java",
+            "apktool"
+        ],
+        "files": [
+            "ç ´è§£å¡ç±³.mpk"
+        ]
+    },
+    {
+        "name": "ç ´è§£MIUIå¡ç±³_MSH",
+        "desc": "ç ´è§£MIUIå¡ç±³",
+        "author": "ç±³æ¬§ç§‘æŠ€",
+        "version": "1.0",
+        "size": 1258,
+        "id": "pjkm_msh",
+        "depend": [
+            "apktool",
+            "java"
+        ],
+        "files": [
+            "ç ´è§£MIUIå¡ç±³_MSH.mpk"
+        ]
+    },
+    {
+        "name": "åˆå¹¶åˆ†åŒºåˆ°systemå¤–å±‚",
+        "desc": "åˆå¹¶å…¶ä»–åˆ†åŒºåˆ°systemå¤–å±‚",
+        "author": "tao1996",
+        "version": "1.0",
+        "size": 1708,
+        "id": "mer_parts",
+        "depend": [],
+        "files": [
+            "åˆå¹¶åˆ†åŒºåˆ°systemå¤–å±‚.mpk"
+        ]
+    },
+    {
+        "name": "ä¸€é”®é¢å…·æ–°ç‰ˆç‹ç‹¸",
+        "desc": "ä¸€é”®é¢å…·æ–°ç‰ˆç‹ç‹¸",
+        "author": "ç¾¤å·ï¼š675773466",
+        "version": "1.1",
+        "size": 12207827,
+        "id": "ä¸€é”®é¢å…·æ–°ç‰ˆç‹ç‹¸",
+        "depend": [],
+        "files": [
+            "ä¸€é”®é¢å…·.mpk"
+        ]
+    },
+    {
+        "name": "TS10ä¸€é”®root",
+        "desc": "TS10ä¸€é”®root",
+        "author": "ç±³æ¬§ç§‘æŠ€",
+        "version": "1.0",
+        "size": 807861,
+        "id": "TS10ROOT",
+        "depend": [],
+        "files": [
+            "TS10ä¸€é”®root.mpk"
+        ]
+    },
+    {
+        "name": "MIUIæ¸©æ§åŠ è§£å¯†",
+        "desc": "æ”¯æŒä¿®æ”¹MIUæ¸©æ§æ–‡ä»¶ï¼Œä½†ä¿®æ”¹åå¿…é¡»åŠ å¯†",
+        "author": "ç±³æ¬§ç§‘æŠ€",
         "version": "1.0",
         "size": 1342732,
         "id": "miui-thermal",
         "depend": [],
         "files": [
-            "MIUIÎÂ¿Ø¼Ó½âÃÜ.mpk"
+            "MIUIæ¸©æ§åŠ è§£å¯†.mpk"
         ]
     },
     {
-        "name": "MTK-BPFĞŞ²¹",
-        "desc": "MTK-BPFĞŞ²¹",
+        "name": "MTK-BPFä¿®è¡¥",
+        "desc": "MTK-BPFä¿®è¡¥",
         "author": "M.K.C",
         "version": "1.0",
         "size": 86465,
         "id": "prbpfboot",
         "depend": [],
         "files": [
-            "MTK-BPFĞŞ²¹.mpk"
+            "MTK-BPFä¿®è¡¥.mpk"
         ]
     },
     {
-        "name": "ROMÇ©Ãû¹¤¾ß",
-        "desc": "Ê¹ÓÃ²âÊÔÃÜÔ¿£¨2014£©Ç©ÃûROM",
-        "author": "Ã×Å·¿Æ¼¼",
+        "name": "è§£åŒ…ops",
+        "desc": "è§£åŒ…ops",
+        "author": "M.K.C",
         "version": "1.0",
-        "size": 3748970,
-        "id": "signapk",
+        "size": 5538557,
+        "id": "unpackops",
         "depend": [],
         "files": [
-            "ROMÇ©Ãû¹¤¾ß.mpk"
+            "è§£åŒ…ops.mpk"
         ]
     },
     {
-        "name": "T3L_TS6_TS7Ò»¼üroot",
-        "desc": "",
-        "author": "ÂäºìÎŞÇé",
-        "version": "1.1",
-        "size": 3163627,
-        "id": "Ts367root",
-        "depend": [],
+        "name": "Apktool",
+        "desc": "å®ƒæ˜¯ç”¨äºé€†å‘å·¥ç¨‹ç¬¬ä¸‰æ–¹ï¼Œå°é—­ï¼ŒäºŒè¿›åˆ¶Androidåº”ç”¨ç¨‹åºçš„å·¥å…·ã€‚å®ƒå¯ä»¥å°†èµ„æºè§£ç ä¸ºå‡ ä¹åŸå§‹çš„å½¢å¼ï¼Œå¹¶åœ¨è¿›è¡Œä¸€äº›ä¿®æ”¹åé‡å»ºå®ƒä»¬;å®ƒå¯ä»¥é€æ­¥è°ƒè¯• Smali ä»£ç ã€‚æ­¤å¤–ï¼Œç”±äºç±»ä¼¼é¡¹ç›®çš„æ–‡ä»¶ç»“æ„å’Œä¸€äº›é‡å¤æ€§ä»»åŠ¡ï¼ˆå¦‚æ„å»º apk ç­‰ï¼‰çš„è‡ªåŠ¨åŒ–ï¼Œå®ƒä½¿ä½¿ç”¨åº”ç”¨ç¨‹åºæ›´å®¹æ˜“ã€‚å®ƒä¸ç”¨äºç›—ç‰ˆå’Œå…¶ä»–éåˆæ³•ç”¨é€”ã€‚å®ƒå¯ç”¨äºæœ¬åœ°åŒ–ï¼Œæ·»åŠ ä¸€äº›åŠŸèƒ½æˆ–æ”¯æŒè‡ªå®šä¹‰å¹³å°å’Œå…¶ä»–è‰¯å¥½ç›®çš„ã€‚åªè¦å°½é‡å…¬å¹³å¯¹å¾…æ‚¨ä½¿ç”¨å¹¶å¯èƒ½å–œæ¬¢çš„åº”ç”¨ç¨‹åºçš„ä½œè€…ã€‚",
+        "author": "Connor Tumbleson",
+        "version": "2.7.0",
+        "size": 22909212,
+        "id": "apktool",
+        "depend": [
+            "java"
+        ],
         "files": [
-            "T3L_TS6_TS7Ò»¼üroot.mpk"
+            "Apktool.mpk"
         ]
     },
     {
-        "name": "TS10Ò»¼üroot",
-        "desc": "TS10Ò»¼üroot",
-        "author": "Ã×Å·¿Æ¼¼",
+        "name": "Magisk_Patch",
+        "desc": "ä¿®è¡¥Bootï¼ŒROOTè®¾å¤‡",
+        "author": "å¯’é£å±…å£«",
+        "version": "26.1",
+        "size": 8799637,
+        "id": "magisk_patch",
+        "depend": [],
+        "files": [
+            "é¢å…·ä¿®è¡¥.mpk"
+        ]
+    },
+    {
+        "name": "MIUI14å®‰å“13å®˜æ”¹ä¸€èˆ¬å¤„ç†[1.1]",
+        "desc": "å»é™¤avbï¼Œvbmetaï¼Œmi_extï¼ŒdataåŠ å¯†ï¼ŒAnalyticsCoreï¼Œç³»ç»Ÿå±‚æœªç­¾åå®‰è£…é™åˆ¶ä»¥åŠç²¾ç®€",
+        "author": "Kpfcç™½ä¸­ç™½",
         "version": "1.0",
-        "size": 807861,
-        "id": "TS10ROOT",
-        "depend": [],
+        "size": 43575,
+        "id": "miui14gg",
+        "depend": [
+            "java",
+            "apktool"
+        ],
         "files": [
-            "TS10Ò»¼üroot.mpk"
-        ]
-    },
-    {
-        "name": "ts10Ò»¼üòñÉß¶Å±È",
-        "desc": "",
-        "author": "Âä»¨ÎŞÇé",
-        "version": "1.0",
-        "size": 7329189,
-        "id": "ViPER4+Dsplus",
-        "depend": [],
-        "files": [
-            "ts10Ò»¼üòñÉß¶Å±È.mpk"
-        ]
-    },
-    {
-        "name": "TS6Ò»¼üroot",
-        "desc": "",
-        "author": "Ã×Å·¿Æ¼¼",
-        "version": "1.0",
-        "size": 3164287,
-        "id": "TS6ROOT",
-        "depend": [],
-        "files": [
-            "TS6Ò»¼üroot.mpk"
-        ]
-    },
-    {
-        "name": "ts7Ò»¼üroot",
-        "desc": "",
-        "author": "ÂäºìÎŞÇé",
-        "version": "1.0",
-        "size": 3163610,
-        "id": "ts7root",
-        "depend": [],
-        "files": [
-            "ts7Ò»¼üroot.mpk"
-        ]
-    },
-    {
-        "name": "ZSTD½â´ò",
-        "desc": "½âÑ¹´ò°üZSTD",
-        "author": "Ã×Å·¿Æ¼¼",
-        "version": "1.0",
-        "size": 657357,
-        "id": "zstd",
-        "depend": [],
-        "files": [
-            "zstd½â´ò.mpk"
+            "MIUI14å®‰å“13å®˜æ”¹ä¸€èˆ¬å¤„ç†[1.1].mpk"
         ]
     },
     {
         "name": "MOOS",
-        "desc": "{»ùÓÚ[»ùÓÚHyperOSÉî¶ÈÓÅ»¯µÄPureSky]}¶Ô·ÖÇøodm¡¢product¡¢system¡¢system_ext¡¢vendor´¦Àí",
-        "author": "[ĞÀÁµ]Seylia",
+        "desc": "{åŸºäº[åŸºäºHyperOSæ·±åº¦ä¼˜åŒ–çš„PureSky]}å¯¹åˆ†åŒºodmã€productã€systemã€system_extã€vendorå¤„ç†",
+        "author": "[æ¬£æ‹]Seylia",
         "version": "1.5",
         "size": 2517167,
         "id": "MOOS",
@@ -252,267 +299,275 @@
         ]
     },
     {
-        "name": "Ò»¼ü´¦ÀíéÙ×Ó2.0Ô­°ü",
-        "desc": "Ò»¼ü´¦ÀíéÙ×Ó2.0Ô­°ü",
-        "author": "tao1996",
+        "name": "EXT3è§£åŒ…",
+        "desc": "EXT3è§£åŒ… ä¿®å¤MKCçš„åŠŸèƒ½ç¼ºé™·",
+        "author": "å¯’é£å±…å£«",
         "version": "1.0",
-        "size": 5886539,
-        "id": "preocean",
+        "size": 1165768,
+        "id": "8iMR7J",
         "depend": [],
         "files": [
-            "Ò»¼ü´¦ÀíéÙ×Ó2.0Ô­°ü.mpk"
+            "EXT3è§£åŒ….mpk"
         ]
     },
     {
-        "name": "Ò»¼üÃæ¾ßĞÂ°æºüÀê",
-        "desc": "Ò»¼üÃæ¾ßĞÂ°æºüÀê",
-        "author": "ÈººÅ£º675773466",
-        "version": "1.1",
-        "size": 12207827,
-        "id": "Ò»¼üÃæ¾ßĞÂ°æºüÀê",
+        "name": "LZ4è§£åŒ…",
+        "desc": "lz4è§£åŒ…",
+        "author": "M.K.C",
+        "version": "1.0",
+        "size": 654,
+        "id": "lz4mm",
         "depend": [],
         "files": [
-            "Ò»¼üÃæ¾ß.mpk"
+            "lz4è§£åŒ….mpk"
         ]
     },
     {
-        "name": "È¥³ı·ÖÇøËøºÍData¼ÓÃÜ",
-        "desc": "È¥³ı·ÖÇøËøºÍData¼ÓÃÜ",
-        "author": "Ã×Å·¿Æ¼¼",
+        "name": "å»é™¤åˆ†åŒºé”å’ŒDataåŠ å¯†",
+        "desc": "å»é™¤åˆ†åŒºé”å’ŒDataåŠ å¯†",
+        "author": "ç±³æ¬§ç§‘æŠ€",
         "version": "1.0",
         "size": 1727,
         "id": "delavbd",
         "depend": [],
         "files": [
-            "È¥³ıAVBºÍDATA¼ÓÃÜ.mpk"
+            "å»é™¤AVBå’ŒDATAåŠ å¯†.mpk"
         ]
     },
     {
-        "name": "È¥³ıvbmetaÑéÖ¤",
-        "desc": "È¥³ıvbmetaÑéÖ¤",
-        "author": "º®·ç¾ÓÊ¿",
-        "version": "1",
-        "size": 1199,
-        "id": "qcvbmetayanzheng",
-        "depend": [],
-        "files": [
-            "È¥³ıvbmetaÑéÖ¤.mpk"
-        ]
-    },
-    {
-        "name": "È¥³ı°²×¿13ÏµÍ³¶ÔÎ´Ç©ÃûÓ¦ÓÃµÄÑéÖ¤",
-        "desc": "È¥³ı°²×¿13ÏµÍ³¶ÔÎ´Ç©ÃûÓ¦ÓÃµÄÑéÖ¤",
-        "author": "tao1996",
+        "name": "MIUI14å®˜æ”¹NFCä¿®å¤",
+        "desc": "MIUI14å®˜æ”¹NFCä¿®å¤",
+        "author": "Puresky",
         "version": "1.0",
-        "size": 1453,
-        "id": "harka13",
+        "size": 763,
+        "id": "5lsd7a",
         "depend": [],
         "files": [
-            "È¥³ı°²×¿13ÏµÍ³¶ÔÎ´Ç©ÃûÓ¦ÓÃµÄÑéÖ¤.mpk"
+            "MIUI14å®˜æ”¹NFCä¿®å¤.mpk"
         ]
     },
     {
-        "name": "ÒÆ³ı°²×¿13Ç©Ãû",
-        "desc": "È¥³ı°²×¿13ÏµÍ³¶ÔÎ´Ç©ÃûÓ¦ÓÃµÄÑéÖ¤",
-        "author": "Ã×Å·",
+        "name": "é¼å¾®TS10æ”¹åŒ…å·¥å…·",
+        "desc": "é¼å¾®TS10æ”¹åŒ…å·¥å…·",
+        "author": "ç±³æ¬§ç§‘æŠ€",
         "version": "1.0",
-        "size": 1103,
-        "id": "az13pj",
+        "size": 4315686,
+        "id": "TS10",
         "depend": [],
         "files": [
-            "È¥³ı°²×¿13ÏµÍ³Ç©Ãû.mpk"
+            "é¼å¾®TS10æ”¹åŒ…å·¥å…·.mpk"
         ]
     },
     {
-        "name": "ºÏ²¢moto·Ö¶Î",
-        "desc": "ºÏ²¢moto·Ö¶ÎsuperÄ£¿é",
-        "author": "tao1996",
+        "name": "é•œåƒå¤§å°è°ƒæ•´",
+        "desc": "è°ƒæ•´é•œåƒå¤§å°ï¼Œæ”¯æŒEXT4ï¼ŒRAW",
+        "author": "ç±³æ¬§ç§‘æŠ€",
         "version": "1.0",
-        "size": 826,
-        "id": "memoto",
+        "size": 2073884,
+        "id": "resizeimg",
         "depend": [],
         "files": [
-            "ºÏ²¢moto·Ö¶ÎsuperÄ£¿é.mpk"
+            "é•œåƒå¤§å°è°ƒæ•´.mpk"
         ]
     },
     {
-        "name": "ºÏ²¢my·ÖÇøµ½system",
-        "desc": "ºÏ²¢my·ÖÇøµ½system",
-        "author": "tao1996",
+        "name": "en_superåˆ†æ®µåˆå¹¶",
+        "desc": "en_superåˆ†æ®µåˆå¹¶",
+        "author": "D.X.Y_i",
         "version": "1.0",
-        "size": 1169,
-        "id": "hbmy",
+        "size": 49974,
+        "id": "DXY_MEU",
         "depend": [],
         "files": [
-            "ºÏ²¢my·ÖÇøµ½system.mpk"
+            "en_superåˆ†æ®µåˆå¹¶.mpk"
         ]
     },
     {
-        "name": "ºÏ²¢RECµ½BOOT",
-        "desc": "ºÏ²¢RECµ½BOOT",
-        "author": "M.K.C",
-        "version": "1.0",
-        "size": 1052,
-        "id": "hbrec",
-        "depend": [],
-        "files": [
-            "ºÏ²¢RECµ½BOOT.mpk"
-        ]
-    },
-    {
-        "name": "ºÏ²¢·ÖÇøµ½systemÍâ²ã",
-        "desc": "ºÏ²¢ÆäËû·ÖÇøµ½systemÍâ²ã",
-        "author": "tao1996",
-        "version": "1.0",
-        "size": 1708,
-        "id": "mer_parts",
-        "depend": [],
-        "files": [
-            "ºÏ²¢·ÖÇøµ½systemÍâ²ã.mpk"
-        ]
-    },
-    {
-        "name": "ºÏ²¢·ÖÇøµ½systemÄÚ²ã",
-        "desc": "ºÏ²¢ÆäËû·ÖÇøµ½systemÄÚ²ã",
-        "author": "M.K.C",
-        "version": "1.0",
-        "size": 7482,
-        "id": "mer_parts_nei",
-        "depend": [],
-        "files": [
-            "ºÏ²¢·ÖÇø½øsystem(ÄÚ²ã).mpk"
-        ]
-    },
-    {
-        "name": "¼«ÏŞ¾«¼ò½÷É÷²âÊÔ",
-        "desc": "¼«ÏŞ¾«¼ò½÷É÷²âÊÔ",
-        "author": "",
-        "version": "1.0",
-        "size": 3417,
-        "id": "ddgfjfg",
-        "depend": [],
-        "files": [
-            "¼«ÏŞ¾«¼ò½÷É÷²âÊÔ.mpk"
-        ]
-    },
-    {
-        "name": "²éÕÒÒÀÀµ",
-        "desc": "²éÕÒÒÀÀµ",
+        "name": "æŸ¥æ‰¾ä¾èµ–",
+        "desc": "æŸ¥æ‰¾ä¾èµ–",
         "author": "tao1996&&MIO",
         "version": "1.0",
         "size": 2192620,
         "id": "finddep",
         "depend": [],
         "files": [
-            "²éÕÒÒÀÀµ.mpk"
+            "æŸ¥æ‰¾ä¾èµ–.mpk"
         ]
     },
     {
-        "name": "ÆÆ½âMIUI¿¨Ã×_MSH",
-        "desc": "ÆÆ½âMIUI¿¨Ã×",
-        "author": "Ã×Å·¿Æ¼¼",
-        "version": "1.0",
-        "size": 1258,
-        "id": "pjkm_msh",
-        "depend": [],
-        "files": [
-            "ÆÆ½âMIUI¿¨Ã×_MSH.mpk"
-        ]
-    },
-    {
-        "name": "ÆÆ½âMIUI¿¨Ã×",
-        "desc": "ÆÆ½âMIUI¿¨Ã×",
-        "author": "Ã×Å·¿Æ¼¼",
-        "version": "1.0",
-        "size": 1953,
-        "id": "pjkm",
-        "depend": [],
-        "files": [
-            "ÆÆ½â¿¨Ã×.mpk"
-        ]
-    },
-    {
-        "name": "¾«¼òmiui",
-        "desc": "¾«¼òmiui",
+        "name": "ç²¾ç®€miui",
+        "desc": "ç²¾ç®€miui",
         "author": "tao1996",
         "version": "1.0",
         "size": 758,
         "id": "jjmiui",
         "depend": [],
         "files": [
-            "¾«¼òmiui.mpk"
+            "ç²¾ç®€miui.mpk"
         ]
     },
     {
-        "name": "½â°üops",
-        "desc": "½â°üops",
-        "author": "M.K.C",
+        "name": "å»é™¤vbmetaéªŒè¯",
+        "desc": "å»é™¤vbmetaéªŒè¯",
+        "author": "å¯’é£å±…å£«",
+        "version": "1",
+        "size": 1199,
+        "id": "qcvbmetayanzheng",
+        "depend": [],
+        "files": [
+            "å»é™¤vbmetaéªŒè¯.mpk"
+        ]
+    },
+    {
+        "name": "åˆå¹¶motoåˆ†æ®µ",
+        "desc": "åˆå¹¶motoåˆ†æ®µsuperæ¨¡å—",
+        "author": "tao1996",
         "version": "1.0",
-        "size": 5538557,
-        "id": "unpackops",
+        "size": 826,
+        "id": "memoto",
         "depend": [],
         "files": [
-            "½â°üops.mpk"
+            "åˆå¹¶motoåˆ†æ®µsuperæ¨¡å—.mpk"
         ]
     },
     {
-        "name": "¾µÏñ´óĞ¡µ÷Õû",
-        "desc": "µ÷Õû¾µÏñ´óĞ¡£¬Ö§³ÖEXT4£¬RAW",
-        "author": "Ã×Å·¿Æ¼¼",
-        "version": "1.0",
-        "size": 2073884,
-        "id": "resizeimg",
-        "depend": [],
-        "files": [
-            "¾µÏñ´óĞ¡µ÷Õû.mpk"
-        ]
-    },
-    {
-        "name": "Magisk_Patch",
-        "desc": "ĞŞ²¹Boot£¬ROOTÉè±¸",
-        "author": "º®·ç¾ÓÊ¿",
-        "version": "26.1",
-        "size": 8799637,
-        "id": "magisk_patch",
-        "depend": [],
-        "files": [
-            "Ãæ¾ßĞŞ²¹.mpk"
-        ]
-    },
-    {
-        "name": "¶¦Î¢TS0-TS8¸Ä°ü¹¤¾ß",
-        "desc": "Ê×¸ö¶Ô³µ»úÖ§³ÖµÄ²å¼ş",
-        "author": "¾²ĞÄÌıÓê&Ã×Å·¿Æ¼¼",
-        "version": "1.0",
-        "size": 4315872,
-        "id": "TS0-TS8",
-        "depend": [],
-        "files": [
-            "¶¦Î¢TS0-TS8¸Ä°ü¹¤¾ß.mpk"
-        ]
-    },
-    {
-        "name": "¶¦Î¢TS10¸Ä°ü¹¤¾ß",
-        "desc": "¶¦Î¢TS10¸Ä°ü¹¤¾ß",
-        "author": "Ã×Å·¿Æ¼¼",
-        "version": "1.0",
-        "size": 4315686,
-        "id": "TS10",
-        "depend": [],
-        "files": [
-            "¶¦Î¢TS10¸Ä°ü¹¤¾ß.mpk"
-        ]
-    },
-    {
-        "name": "¶¦Î¢ÏµÁĞÍòÄÜ¸Ä°ü¹¤¾ß",
-        "desc": "¶¦Î¢ÏµÁĞÍòÄÜ¸Ä°ü¹¤¾ß",
-        "author": "Ã×Å·¿Æ¼¼",
+        "name": "é¼å¾®ç³»åˆ—ä¸‡èƒ½æ”¹åŒ…å·¥å…·",
+        "desc": "é¼å¾®ç³»åˆ—ä¸‡èƒ½æ”¹åŒ…å·¥å…·",
+        "author": "ç±³æ¬§ç§‘æŠ€",
         "version": "1.0",
         "size": 4315921,
         "id": "TSwn",
         "depend": [],
         "files": [
-            "¶¦Î¢ÏµÁĞÍòÄÜ¸Ä°ü¹¤¾ß.mpk"
+            "é¼å¾®ç³»åˆ—ä¸‡èƒ½æ”¹åŒ…å·¥å…·.mpk"
+        ]
+    },
+    {
+        "name": "åˆå¹¶myåˆ†åŒºåˆ°system",
+        "desc": "åˆå¹¶myåˆ†åŒºåˆ°system",
+        "author": "tao1996",
+        "version": "1.0",
+        "size": 1169,
+        "id": "hbmy",
+        "depend": [],
+        "files": [
+            "åˆå¹¶myåˆ†åŒºåˆ°system.mpk"
+        ]
+    },
+    {
+        "name": "ç§»é™¤å®‰å“13ç­¾å",
+        "desc": "å»é™¤å®‰å“13ç³»ç»Ÿå¯¹æœªç­¾ååº”ç”¨çš„éªŒè¯",
+        "author": "ç±³æ¬§",
+        "version": "1.0",
+        "size": 1103,
+        "id": "az13pj",
+        "depend": [
+            "java",
+            "apktool"
+        ],
+        "files": [
+            "å»é™¤å®‰å“13ç³»ç»Ÿç­¾å.mpk"
+        ]
+    },
+    {
+        "name": "ä¸€é”®è°è›‡æœæ¯”+root",
+        "desc": "",
+        "author": "ä¸çŸ¥åç½‘å‹",
+        "version": "1.0",
+        "size": 8146450,
+        "id": "ViPER4+Dsplus+root",
+        "depend": [],
+        "files": [
+            "ä¸€é”®è°è›‡æœæ¯”+root.mpk"
+        ]
+    },
+    {
+        "name": "åˆå¹¶RECåˆ°BOOT",
+        "desc": "åˆå¹¶RECåˆ°BOOT",
+        "author": "M.K.C",
+        "version": "1.0",
+        "size": 1052,
+        "id": "hbrec",
+        "depend": [],
+        "files": [
+            "åˆå¹¶RECåˆ°BOOT.mpk"
+        ]
+    },
+    {
+        "name": "ROMç­¾åå·¥å…·",
+        "desc": "ä½¿ç”¨æµ‹è¯•å¯†é’¥ï¼ˆ2014ï¼‰ç­¾åROM",
+        "author": "ç±³æ¬§ç§‘æŠ€",
+        "version": "1.0",
+        "size": 3748970,
+        "id": "signapk",
+        "depend": [
+            "java_old"
+        ],
+        "files": [
+            "ROMç­¾åå·¥å…·.mpk"
+        ]
+    },
+    {
+        "name": "å»é™¤å®‰å“13ç³»ç»Ÿå¯¹æœªç­¾ååº”ç”¨çš„éªŒè¯",
+        "desc": "å»é™¤å®‰å“13ç³»ç»Ÿå¯¹æœªç­¾ååº”ç”¨çš„éªŒè¯",
+        "author": "tao1996",
+        "version": "1.0",
+        "size": 1453,
+        "id": "harka13",
+        "depend": [
+            "apktool",
+            "java"
+        ],
+        "files": [
+            "å»é™¤å®‰å“13ç³»ç»Ÿå¯¹æœªç­¾ååº”ç”¨çš„éªŒè¯.mpk"
+        ]
+    },
+    {
+        "name": "TS6ä¸€é”®root",
+        "desc": "",
+        "author": "ç±³æ¬§ç§‘æŠ€",
+        "version": "1.0",
+        "size": 3164287,
+        "id": "TS6ROOT",
+        "depend": [],
+        "files": [
+            "TS6ä¸€é”®root.mpk"
+        ]
+    },
+    {
+        "name": "bootå®½å®¹",
+        "desc": "bootå®½å®¹",
+        "author": "tao1996",
+        "version": "1.0",
+        "size": 741,
+        "id": "preboot",
+        "depend": [],
+        "files": [
+            "bootå®½å®¹.mpk"
+        ]
+    },
+    {
+        "name": "MIUIä¸»é¢˜é˜²æ¢å¤",
+        "desc": "MIUIä¸»é¢˜é˜²æ¢å¤",
+        "author": "DXY",
+        "version": "1.0",
+        "size": 680,
+        "id": "dxy_miuitheme",
+        "depend": [],
+        "files": [
+            "MIUIä¸»é¢˜é˜²æ¢å¤.mpk"
+        ]
+    },
+    {
+        "name": "T3L_TS6_TS7ä¸€é”®root",
+        "desc": "",
+        "author": "è½çº¢æ— æƒ…",
+        "version": "1.1",
+        "size": 3163627,
+        "id": "Ts367root",
+        "depend": [],
+        "files": [
+            "T3L_TS6_TS7ä¸€é”®root.mpk"
         ]
     }
 ]
