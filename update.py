@@ -9,8 +9,9 @@ from config_parser import ConfigParser
 def main(output_json, version, service_info=None):
     build_time = int(time.time())
     plugin_list = []
-    for i in os.listdir(os.getcwd()):
+    for i in sorted(os.listdir(os.getcwd()), key=str.lower):
         if i.endswith('.mpk') and zipfile.is_zipfile(i):
+            print(f'Loading {i}')
             config = ConfigParser()
             with zipfile.ZipFile(i) as zf:
                 with zf.open('info') as mpk_info:
