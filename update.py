@@ -12,13 +12,13 @@ def main(output_json, version):
     for i in os.listdir(os.getcwd()):
         if i.endswith('.mpk') and zipfile.is_zipfile(i):
             config = ConfigParser()
-            try:
-                depend = config.get('module', 'depend').split()
-            except:
-                depend = []
             with zipfile.ZipFile(i) as zf:
                 with zf.open('info') as mpk_info:
                     config.read_string(mpk_info.read().decode('utf-8'))
+                    try:
+                        depend = config.get('module', 'depend').split()
+                    except:
+                        depend = []
                     plugin_list.append(
                         {
                             'name': config.get('module', 'name'),
