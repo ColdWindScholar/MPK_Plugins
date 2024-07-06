@@ -5,13 +5,16 @@ import zipfile
 
 from config_parser import ConfigParser
 
-
 def main(output_json, version):
     build_time = int(time.time())
     plugin_list = []
     for i in os.listdir(os.getcwd()):
         if i.endswith('.mpk') and zipfile.is_zipfile(i):
             config = ConfigParser()
+            try:
+                depend = config.get('module', 'depend').split()
+            except:
+                depend = []
             with zipfile.ZipFile(i) as zf:
                 with zf.open('info') as mpk_info:
                     config.read_string(mpk_info.read().decode('utf-8'))
@@ -23,6 +26,7 @@ def main(output_json, version):
                             'version': config.get('module', 'version'),
                             'size': os.stat(i).st_size,
                             "id": config.get('module', 'identifier'),
+                            "depend": depend,
                             'files': [i]
                         }
                     )
