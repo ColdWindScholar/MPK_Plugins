@@ -86,6 +86,18 @@
         ]
     },
     {
+        "name": "Merge partitions to outer layer",
+        "desc": "Merge partitions to the outer layer of the system",
+        "author": "ColdWind",
+        "version": "1.0",
+        "size": 1685,
+        "id": "mer_parts",
+        "depend": [],
+        "files": [
+            "Merge partitions to outer layer.mpk"
+        ]
+    },
+    {
         "name": "MIUI14安卓13官改一般处理[1.1]",
         "desc": "去除avb，vbmeta，mi_ext，data加密，AnalyticsCore，系统层未签名安装限制以及精简",
         "author": "Kpfc白中白",
