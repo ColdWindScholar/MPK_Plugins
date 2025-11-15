@@ -86,6 +86,18 @@
         ]
     },
     {
+        "name": "magisk-on-system",
+        "desc": "无需修改 Boot/Recovery 即可安装 Magisk",
+        "author": "早茶光",
+        "version": "1.1fix2_20250601",
+        "size": 3869046,
+        "id": "plugin.zcg.magisk_on_system",
+        "depend": [],
+        "files": [
+            "magisk-on-system.mpk"
+        ]
+    },
+    {
         "name": "Merge partitions to outer layer",
         "desc": "Merge partitions to the outer layer of the system",
         "author": "ColdWind",
