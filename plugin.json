@@ -319,6 +319,18 @@
         ]
     },
     {
+        "name": "一键移植OnePlus ColorOS15/OxygenOS15原包",
+        "desc": "",
+        "author": "寒水 Official",
+        "version": "1.0",
+        "size": 1790858,
+        "id": "OnePlusColorOS15Transplant",
+        "depend": [],
+        "files": [
+            "一键移植OnePlus ColorOS15OxygenOS15原包.mpk"
+        ]
+    },
+    {
         "name": "一键蝰蛇杜比+root",
         "desc": "",
         "author": "不知名网友",
