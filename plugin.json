@@ -307,6 +307,18 @@
         ]
     },
     {
+        "name": "一键处理c14电源键延迟状态栏电压异常提取自oppofindx3",
+        "desc": "一键处理c14电源键延迟状态栏电压异常提取自oppofindx3",
+        "author": "MIO-KITCHEN",
+        "version": "1.0",
+        "size": 1448566,
+        "id": "c14",
+        "depend": [],
+        "files": [
+            "一键处理c14电源键延迟状态栏电压异常提取自oppofindx3.mpk"
+        ]
+    },
+    {
         "name": "一键处理橘子2.0原包",
         "desc": "一键处理橘子2.0原包",
         "author": "tao1996",
