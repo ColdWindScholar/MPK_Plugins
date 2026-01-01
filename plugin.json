@@ -12,6 +12,21 @@
         ]
     },
     {
+        "name": "Apk Modifier",
+        "desc": "This's a plugin to Unpack and Repack Apk file.",
+        "author": "MIO-KITCHEN",
+        "version": "1.0",
+        "size": 4094616,
+        "id": "apk.modifier.mkc",
+        "depend": [
+            "java",
+            "apktool"
+        ],
+        "files": [
+            "Apk Modifier.mpk"
+        ]
+    },
+    {
         "name": "Apktool",
         "desc": "它是用于逆向工程第三方，封闭，二进制Android应用程序的工具。它可以将资源解码为几乎原始的形式，并在进行一些修改后重建它们;它可以逐步调试 Smali 代码。此外，由于类似项目的文件结构和一些重复性任务（如构建 apk 等）的自动化，它使使用应用程序更容易。它不用于盗版和其他非合法用途。它可用于本地化，添加一些功能或支持自定义平台和其他良好目的。只要尽量公平对待您使用并可能喜欢的应用程序的作者。",
         "author": "Connor Tumbleson",
