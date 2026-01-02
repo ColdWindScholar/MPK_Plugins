@@ -89,6 +89,18 @@
         ]
     },
     {
+        "name": "Java环境",
+        "desc": "一个Java运行环境，部分插件依赖此环境。Oracle Java 是广受欢迎的编程语言和开发平台。它有助于企业降低成本、缩短开发周期、推动创新以及改善应用服务。如今，Java 仍是企业和开发人员的首选开发平台，全球有数百万开发人员运行超过 60 亿台 Java 虚拟机。",
+        "author": "Oracle-甲骨文",
+        "version": "18.0.2.1",
+        "size": 27664629,
+        "id": "java",
+        "depend": [],
+        "files": [
+            "Java环境.mpk"
+        ]
+    },
+    {
         "name": "LZ4解包",
         "desc": "lz4解包",
         "author": "M.K.C",
@@ -517,6 +529,21 @@
         "depend": [],
         "files": [
             "查找依赖.mpk"
+        ]
+    },
+    {
+        "name": "破解MIUI删减app卡米权限",
+        "desc": "安卓10-11 破解MIUI删减app卡米权限",
+        "author": "MIO-KITCHEN",
+        "version": "1.0",
+        "size": 3920,
+        "id": "miui.process.services",
+        "depend": [
+            "java",
+            "apktool"
+        ],
+        "files": [
+            "破解MIUI删减app卡米权限.mpk"
         ]
     },
     {
