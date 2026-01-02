@@ -1,14 +1,14 @@
 [
     {
         "name": "MOOS",
-        "desc": "{基于[基于HyperOS深度优化的PureSky]}对分区odm、product、system、system_ext、vendor处理",
+        "desc": "此模块将对[odm][product][system][system_ext][vendor]分区进行处理。配置文件在模块文件夹/MO_conf.txt。仅对固件做深度优化处理，不提供破解校验等功能。",
         "author": "[欣恋]Seylia",
-        "version": "1.5",
-        "size": 2517167,
+        "version": "2.4.0",
+        "size": 2402766,
         "id": "MOOS",
         "depend": [],
         "files": [
-            "[P1.5]MOOS_3.mpk"
+            "[2.4.0]MOOS.mpk"
         ]
     },
     {
@@ -125,18 +125,6 @@
         ]
     },
     {
-        "name": "Merge partitions to outer layer",
-        "desc": "Merge partitions to the outer layer of the system",
-        "author": "ColdWind",
-        "version": "1.0",
-        "size": 1685,
-        "id": "mer_parts",
-        "depend": [],
-        "files": [
-            "Merge partitions to outer layer.mpk"
-        ]
-    },
-    {
         "name": "MIUI14安卓13官改一般处理[1.1]",
         "desc": "去除avb，vbmeta，mi_ext，data加密，AnalyticsCore，系统层未签名安装限制以及精简",
         "author": "Kpfc白中白",
@@ -216,10 +204,10 @@
         "desc": "使用测试密钥（2014）签名ROM",
         "author": "米欧科技",
         "version": "1.0",
-        "size": 3748970,
+        "size": 3748168,
         "id": "signapk",
         "depend": [
-            "java_old"
+            "java"
         ],
         "files": [
             "ROM签名工具.mpk"
@@ -314,8 +302,8 @@
         "desc": "Create / extract ZSTD files",
         "author": "ColdWindScholar",
         "version": "1.0",
-        "size": 655732,
-        "id": "zstd",
+        "size": 655717,
+        "id": "zstd_en",
         "depend": [],
         "files": [
             "zstd_archiver.mpk"
@@ -544,36 +532,6 @@
         ],
         "files": [
             "破解MIUI删减app卡米权限.mpk"
-        ]
-    },
-    {
-        "name": "破解MIUI卡米_MSH",
-        "desc": "破解MIUI卡米",
-        "author": "米欧科技",
-        "version": "1.0",
-        "size": 1258,
-        "id": "pjkm_msh",
-        "depend": [
-            "apktool",
-            "java"
-        ],
-        "files": [
-            "破解MIUI卡米_MSH.mpk"
-        ]
-    },
-    {
-        "name": "破解MIUI卡米",
-        "desc": "破解MIUI卡米",
-        "author": "米欧科技",
-        "version": "1.0",
-        "size": 1953,
-        "id": "pjkm",
-        "depend": [
-            "java",
-            "apktool"
-        ],
-        "files": [
-            "破解卡米.mpk"
         ]
     },
     {
