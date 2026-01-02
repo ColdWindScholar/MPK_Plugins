@@ -6,7 +6,7 @@ import zipfile
 from config_parser import ConfigParser
 
 
-def main(output_json, version, service_info=None):
+def main(output_json, version):
     build_time = int(time.time())
     plugin_list = []
     for i in sorted(os.listdir(os.getcwd()), key=str.lower):
