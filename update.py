@@ -29,6 +29,8 @@ def main(output_json, version):
                             'size': os.stat(i).st_size,
                             "id": config.get('module', 'identifier'),
                             "depend": depend,
+                            "system": config.get('module', 'system') or 'all',
+                            "arch": config.get('module', 'arch') or 'all',
                             'files': [i]
                         }
                     )
