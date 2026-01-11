@@ -7,6 +7,8 @@
         "size": 2402766,
         "id": "MOOS",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "[2.4.0]MOOS.mpk"
         ]
@@ -22,6 +24,8 @@
             "java",
             "apktool"
         ],
+        "system": "all",
+        "arch": "all",
         "files": [
             "Apk Modifier.mpk"
         ]
@@ -36,6 +40,8 @@
         "depend": [
             "java"
         ],
+        "system": "all",
+        "arch": "all",
         "files": [
             "Apktool.mpk"
         ]
@@ -48,6 +54,8 @@
         "size": 741,
         "id": "preboot",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "boot宽容.mpk"
         ]
@@ -60,6 +68,8 @@
         "size": 1815,
         "id": "3iDfnh",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "build.prop优化.mpk"
         ]
@@ -72,6 +82,8 @@
         "size": 49974,
         "id": "DXY_MEU",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "en_super分段合并.mpk"
         ]
@@ -84,6 +96,8 @@
         "size": 1165768,
         "id": "8iMR7J",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "EXT3解包.mpk"
         ]
@@ -96,6 +110,8 @@
         "size": 27664629,
         "id": "java",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "Java环境.mpk"
         ]
@@ -108,6 +124,8 @@
         "size": 654,
         "id": "lz4mm",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "lz4解包.mpk"
         ]
@@ -120,6 +138,8 @@
         "size": 3869046,
         "id": "plugin.zcg.magisk_on_system",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "magisk-on-system.mpk"
         ]
@@ -135,6 +155,8 @@
             "java",
             "apktool"
         ],
+        "system": "all",
+        "arch": "all",
         "files": [
             "MIUI14安卓13官改一般处理[1.1].mpk"
         ]
@@ -147,6 +169,8 @@
         "size": 763,
         "id": "5lsd7a",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "MIUI14官改NFC修复.mpk"
         ]
@@ -159,6 +183,8 @@
         "size": 3695049,
         "id": "miui14zh",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "MIUI14账号修复.mpk"
         ]
@@ -171,6 +197,8 @@
         "size": 680,
         "id": "dxy_miuitheme",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "MIUI主题防恢复.mpk"
         ]
@@ -183,6 +211,8 @@
         "size": 1342732,
         "id": "miui-thermal",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "MIUI温控加解密.mpk"
         ]
@@ -195,6 +225,8 @@
         "size": 86465,
         "id": "prbpfboot",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "MTK-BPF修补.mpk"
         ]
@@ -209,6 +241,8 @@
         "depend": [
             "java"
         ],
+        "system": "all",
+        "arch": "all",
         "files": [
             "ROM签名工具.mpk"
         ]
@@ -221,6 +255,8 @@
         "size": 3163627,
         "id": "Ts367root",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "T3L_TS6_TS7一键root.mpk"
         ]
@@ -233,6 +269,8 @@
         "size": 807861,
         "id": "TS10ROOT",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "TS10一键root.mpk"
         ]
@@ -245,6 +283,8 @@
         "size": 7329189,
         "id": "ViPER4+Dsplus",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "ts10一键蝰蛇杜比.mpk"
         ]
@@ -257,6 +297,8 @@
         "size": 3164287,
         "id": "TS6ROOT",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "TS6一键root.mpk"
         ]
@@ -269,6 +311,8 @@
         "size": 3163610,
         "id": "ts7root",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "ts7一键root.mpk"
         ]
@@ -281,6 +325,8 @@
         "size": 2874,
         "id": "7AOXHb",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "Xiaomi_HyperOS_Pad.mpk"
         ]
@@ -293,6 +339,8 @@
         "size": 3155,
         "id": "7h0sis",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "Xiaomi_HyperOS_Phone.mpk"
         ]
@@ -305,6 +353,8 @@
         "size": 655717,
         "id": "zstd_en",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "zstd_archiver.mpk"
         ]
@@ -317,6 +367,8 @@
         "size": 657357,
         "id": "zstd",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "zstd解打.mpk"
         ]
@@ -329,6 +381,8 @@
         "size": 1448566,
         "id": "c14",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "一键处理c14电源键延迟状态栏电压异常提取自oppofindx3.mpk"
         ]
@@ -341,6 +395,8 @@
         "size": 5886539,
         "id": "preocean",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "一键处理橘子2.0原包.mpk"
         ]
@@ -353,6 +409,8 @@
         "size": 1790858,
         "id": "OnePlusColorOS15Transplant",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "一键移植OnePlus ColorOS15OxygenOS15原包.mpk"
         ]
@@ -365,6 +423,8 @@
         "size": 8146450,
         "id": "ViPER4+Dsplus+root",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "一键蝰蛇杜比+root.mpk"
         ]
@@ -377,6 +437,8 @@
         "size": 12207827,
         "id": "一键面具新版狐狸",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "一键面具.mpk"
         ]
@@ -389,6 +451,8 @@
         "size": 1727,
         "id": "delavbd",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "去除AVB和DATA加密.mpk"
         ]
@@ -401,6 +465,8 @@
         "size": 1199,
         "id": "qcvbmetayanzheng",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "去除vbmeta验证.mpk"
         ]
@@ -416,6 +482,8 @@
             "apktool",
             "java"
         ],
+        "system": "all",
+        "arch": "all",
         "files": [
             "去除安卓13系统对未签名应用的验证.mpk"
         ]
@@ -431,6 +499,8 @@
             "java",
             "apktool"
         ],
+        "system": "all",
+        "arch": "all",
         "files": [
             "去除安卓13系统签名.mpk"
         ]
@@ -443,6 +513,8 @@
         "size": 826,
         "id": "memoto",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "合并moto分段super模块.mpk"
         ]
@@ -455,6 +527,8 @@
         "size": 1169,
         "id": "hbmy",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "合并my分区到system.mpk"
         ]
@@ -467,6 +541,8 @@
         "size": 1052,
         "id": "hbrec",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "合并REC到BOOT.mpk"
         ]
@@ -479,6 +555,8 @@
         "size": 1708,
         "id": "mer_parts",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "合并分区到system外层.mpk"
         ]
@@ -491,6 +569,8 @@
         "size": 7482,
         "id": "mer_parts_nei",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "合并分区进system(内层).mpk"
         ]
@@ -503,6 +583,8 @@
         "size": 3417,
         "id": "ddgfjfg",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "极限精简谨慎测试.mpk"
         ]
@@ -515,6 +597,8 @@
         "size": 2192620,
         "id": "finddep",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "查找依赖.mpk"
         ]
@@ -530,6 +614,8 @@
             "java",
             "apktool"
         ],
+        "system": "all",
+        "arch": "all",
         "files": [
             "破解MIUI删减app卡米权限.mpk"
         ]
@@ -542,6 +628,8 @@
         "size": 758,
         "id": "jjmiui",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "精简miui.mpk"
         ]
@@ -554,6 +642,8 @@
         "size": 5538557,
         "id": "unpackops",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "解包ops.mpk"
         ]
@@ -566,6 +656,8 @@
         "size": 2073884,
         "id": "resizeimg",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "镜像大小调整.mpk"
         ]
@@ -578,6 +670,8 @@
         "size": 8799637,
         "id": "magisk_patch",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "面具修补.mpk"
         ]
@@ -590,6 +684,8 @@
         "size": 4315872,
         "id": "TS0-TS8",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "鼎微TS0-TS8改包工具.mpk"
         ]
@@ -602,6 +698,8 @@
         "size": 4315686,
         "id": "TS10",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "鼎微TS10改包工具.mpk"
         ]
@@ -614,6 +712,8 @@
         "size": 4315921,
         "id": "TSwn",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "鼎微系列万能改包工具.mpk"
         ]
@@ -626,6 +726,8 @@
         "size": 343435,
         "id": "TSwn_ilnux",
         "depend": [],
+        "system": "all",
+        "arch": "all",
         "files": [
             "鼎微系列万能改包工具_linux.mpk"
         ]
