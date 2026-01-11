@@ -16,10 +16,6 @@ def main(output_json, version):
             with zipfile.ZipFile(i) as zf:
                 with zf.open('info') as mpk_info:
                     config.read_string(mpk_info.read().decode('utf-8'))
-                    try:
-                        depend = config.get('module', 'depend').split()
-                    except:
-                        depend = []
                     plugin_list.append(
                         {
                             'name': config.get('module', 'name'),
@@ -28,7 +24,7 @@ def main(output_json, version):
                             'version': config.get('module', 'version'),
                             'size': os.stat(i).st_size,
                             "id": config.get('module', 'identifier'),
-                            "depend": depend,
+                            "depend": config.get('module', 'depend').split(),
                             "system": config.get('module', 'system') or 'all',
                             "arch": config.get('module', 'arch') or 'all',
                             'files': [i]
