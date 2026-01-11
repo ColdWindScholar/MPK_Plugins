@@ -62,4 +62,4 @@ class ConfigParser:
     def get(self, main_i, n):
         if main_i not in self.dict.keys():
             return ''
-        return self.dict[main_i][n]
+        return self.dict[main_i].get(n, '')
